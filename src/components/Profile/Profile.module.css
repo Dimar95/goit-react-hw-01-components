@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;900&display=swap');
+.profile{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: #f3f2f2;
+    width: 360px;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 6px;
+    box-shadow:
+      0px 1px 1px rgba(0, 0, 0, 0.12),
+      0px 4px 4px rgba(0, 0, 0, 0.06),
+      1px 4px 6px rgba(0, 0, 0, 0.16);
+      margin-top: 40px;
+      margin-bottom: 40px;
+}
+.profile:hover{
+    scale: 1.05;
+    cursor: pointer;
+}
+
+.description{
+    padding: 20px;
+
+}
+.avatar{
+    width: 160px;
+    background-color: rgb(62, 62, 65);
+    border-radius: 50%;
+
+}
+.name{
+    font-size: 30px;
+    font-weight: 900;
+    margin: 24px 0 20px 0;
+}
+.tag{
+    font-size: 20px;
+    color: #575757;
+    font-weight: 400;
+    margin: 10px;
+    
+}
+.location{
+    font-size: 20px;
+    color: #575757;
+    font-weight: 400;
+    margin: 10px;
+
+}
+.stats{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    padding: 0;
+    margin: 0;
+    border-top: #575757 solid 1px;
+
+
+}
+.stats li{
+    width: 33%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+.stats li:not(:last-child){
+    border-right: #575757 solid 1px;
+}
+
+.label{
+    margin: 10px;
+    display: flex;
+  flex-direction: column;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 0;
+
+
+}
+.quantity{
+    margin: 10px;
+    
+}
