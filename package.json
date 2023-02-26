@@ -2,7 +2,7 @@
   "name": "react-homework-template",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/Dimar95/goit-react-hw-01-components/",
+  "homepage": "https://dimar95.github.io/goit-react-hw-01-components/",
   "dependencies": {
     "@emotion/react": "^11.10.6",
     "@emotion/styled": "^11.10.6",
